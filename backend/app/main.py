@@ -1,14 +1,9 @@
 from fastapi import FastAPI
 
+
 app = FastAPI()
 
-@app.get("/")
- HEAD
+@app.get('/')
 def read_root():
-    return {"message": "¡Copi a un toque funcionando!"}
+    return {'message': '¡Hola, Copi a un toque está en marcha!'}
 
-
-
-def root():
-    return {"message": "Hola Copi!"}
- 0eab3d04 (🚀 Commit inicial con toda la estructura y base)
