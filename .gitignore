@@ -1,3 +1,4 @@
+ HEAD
 # Python
 __pycache__/
 *.pyc
@@ -14,4 +15,9 @@ venv/
 # Sistema
 .DS_Store
 Thumbs.db
-
+node_modules/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+ 7ef2e9cc (🔒 Seguridad inicial y archivos base agregados)
